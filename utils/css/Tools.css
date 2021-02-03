@@ -1,0 +1,84 @@
+.ToolsMazePiece {
+    border: 0.1rem solid #1b4a1b;
+    width: 3rem;
+    height: 3rem;
+    background-color: #94c694;
+}
+
+.ToolsMazePiece_asteriskIcon {
+    position: absolute;
+    margin: 15px;
+    color: darkred;
+}
+
+/***************************/
+
+.ToolsMazeBoard {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 0.1rem solid #1b4a1b;
+}
+
+.ToolsMazeBoard_rowDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+/***************************/
+
+.ToolsChessPiece {
+    width: 3rem;
+    height: 3rem;
+    background-color: #7e5733;
+}
+
+.ToolsChessPiece_asteriskIcon {
+    margin: 7px;
+    color: #000000;
+    font-size: 2rem;
+    height: 1rem;
+}
+
+/***************************/
+
+.ToolsChessBoard {
+    display: flex;
+    flex-direction: row;
+}
+
+.ToolsChessBoard_columnsDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+/***************************/
+
+.ToolsTicTacToePiece {
+    border: 0.1rem solid #000000;
+    width: 3rem;
+    height: 3rem;
+}
+
+.ToolsMazePiece_icon {
+    margin: 7px;
+    color: #000000;
+    font-size: 2rem;
+    height: 1rem;
+}
+
+.ToolsTicTacToePiece_hover:hover{
+    cursor: pointer;
+}
+
+/***************************/
+
+.ToolsTicTacToeBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+.ToolsTicTacToeBoard_rowDiv {
+    display: flex;
+    flex-direction: row;
+}

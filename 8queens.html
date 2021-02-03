@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8 Queens</title>
+    <link rel="stylesheet" href="utils/css/Tools.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
+
+    <script src="utils/Structure.js"></script>
+    <script src="utils/Tools.js"></script>
+</head>
+<body>
+<div id="root" class="root"></div>
+<script>
+
+    let board = new ToolsChessBoard(null , {
+        n: 8,
+        t: 5000,
+        queens : [
+            0,6,6,7,5,0,2,1
+        ]
+    });
+    board.moveIn(null , document.getElementById("root"));
+
+</script>
+</body>
+</html>

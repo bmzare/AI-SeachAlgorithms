@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="utils/css/Tools.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
+
+    <script src="utils/Structure.js"></script>
+    <script src="utils/Tools.js"></script>
+</head>
+<body>
+<div id="root" class="root"></div>
+<script>
+
+    let board = new ToolsTicTacToeBoard(null , {
+        n: 3,
+    });
+    board.moveIn(null , document.getElementById("root"));
+
+</script>
+</body>
+</html>
